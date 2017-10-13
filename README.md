@@ -1,4 +1,5 @@
 Introduction
+
 This book is meant for those programmers, Bioinformatics and researchers looking for a way to start programming with Python or desire to expand the knowledge in the Bioinformatics area.
 
 This book takes examples from Rosalind website (http://rosalind.info/problems/dna/) which provides a great overview of coders and software developers tackle "common" programming problems, and how to resolve them. Also Biopython Tutorial and Cookbook {Chang, Jeff, et al. "Biopython Tutorial and Cookbook." (2010).} and Bioinformatics Programming using Python {Model, Mitchell L.Bioinformatics programming using Python. OReilly Media, 2010.} are being cited here. The objetive of this book is an effort to bring both areas together, Programming and Bioinformatics in a way that people from this areas adapt rapidly. In most of the examples I will provide explanation in both Spanish and English, as this book is thought for a larger audience.
