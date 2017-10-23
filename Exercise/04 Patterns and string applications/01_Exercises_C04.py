@@ -12,4 +12,4 @@ at_content = (a_count + t_count) / length
 print("AT content is " + str(at_content))
 #     Credits to: Python for Biologist
 #                 Dr. Martin Jones
-                  http://www.pythonforbiologists.com/
+#                 http://www.pythonforbiologists.com/
