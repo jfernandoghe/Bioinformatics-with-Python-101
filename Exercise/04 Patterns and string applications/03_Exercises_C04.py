@@ -12,4 +12,4 @@ print("length of fragment one is " + str(frag1_length))
 print("length of fragment two is " + str(frag2_length))
 #     Credits to: Python for Biologist
 #                 Dr. Martin Jones
-                  http://www.pythonforbiologists.com/
+#                 http://www.pythonforbiologists.com/
