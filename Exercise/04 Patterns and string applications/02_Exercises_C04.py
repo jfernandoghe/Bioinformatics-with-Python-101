@@ -14,4 +14,4 @@ print(replacement4)
 print(replacement4.upper())
 #     Credits to: Python for Biologist
 #                 Dr. Martin Jones
-                  http://www.pythonforbiologists.com/
+#                 http://www.pythonforbiologists.com/
