@@ -14,4 +14,4 @@ exon2 = my_dna[90:10000]
 print(exon1 + exon2)
 #     Credits to: Python for Biologist
 #                 Dr. Martin Jones
-                  http://www.pythonforbiologists.com/
+#                 http://www.pythonforbiologists.com/
