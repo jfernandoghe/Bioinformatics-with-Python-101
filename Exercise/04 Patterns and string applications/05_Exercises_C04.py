@@ -12,4 +12,4 @@ total_length = len(my_dna)
 print(100 * coding_length / total_length)
 #     Credits to: Python for Biologist
 #                 Dr. Martin Jones
-                  http://www.pythonforbiologists.com/
+#                 http://www.pythonforbiologists.com/
