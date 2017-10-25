@@ -1,3 +1,6 @@
+#     Bioinformatics with Python 101
+#     José Fernando González Herrera
+#     jfernandoghe@gmail.com
 print('This program give you the posibility to do simple mathematical operations')
 print('Please select one of the following:  1 Add, 2 Product, 3 Power, 4 Which bigger')
 n=int(input())
