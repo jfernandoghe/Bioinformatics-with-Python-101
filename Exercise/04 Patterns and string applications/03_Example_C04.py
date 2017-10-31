@@ -1,17 +1,23 @@
-class Human:
-    humanCo = 0
-    def __init__(self, name, DNA, hr, sp):
-    self.name = name                                #Name
-    self.DNA = DNA                                  #Small DNA sequence
-    self.hr = hd                                    #Heart disease
-    self.sp = db                                    #Diabetes
-    self.eyep = eyep                                #EyeProblems
-    self.k = k                                      #Kidney
-    Human.humanCo += 1
-def related(self, p1, p2):
-    self.p1 = p1.DNA
+def read_fasta(fp):
+    name, seq = None, []
+    for line in fp:
+        line = line.rstrip()
+        if line.startswith(">"):
+            if name: yield (name, ''.join(seq))
+            name, seq = line, []
+        else:
+            seq.append(line)
+    if name: yield (name, ''.join(seq))
+    return name, seq
 
-
-sophia = Human("Sophia", "GCTA", "Y", "N", "Y", "N")
-susan = Human("Susan", "GCTA", "Y", "N", "Y", "N")
-related(sophia.d,susan)
+i = 0
+ti = {}
+sq = {}
+#with open('HOMO.fa') as fp:  # Name of the file, *.fa
+#    for name, seq in read_fasta(fp):
+#        ti[i] = name
+#        sq[i] = seq
+        # print(name, seq)
+#        i = i + 1
+read_fasta('HOMO.fa')
+print(len(ti[0]))
